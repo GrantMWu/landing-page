@@ -1,0 +1,23 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
