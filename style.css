@@ -1,6 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 .top-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
