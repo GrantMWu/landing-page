@@ -66,5 +66,12 @@ a {
     justify-content: center;
 }
 
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
 
 
