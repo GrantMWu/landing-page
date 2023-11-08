@@ -146,14 +146,38 @@ button {
 .author {
     display: flex;
     align-self: flex-end;
+    font-weight: 900;
 }
 
 /* action */
 
-.action {
+.container-four {
     display: flex;
     justify-content: center;
 }
+
+.action {
+    display: flex;
+    border: solid #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    min-width: 1000px;
+    align-items: center;
+    margin: 80px 0 80px 0;
+    padding: 40px 80px;
+    background-color: #3882F6;
+}
+
+.action-header, .action-text {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.action-button {
+    border: solid 2px #F9FAF8;
+}
+
+
 
 /* footer */
 
