@@ -108,10 +108,31 @@ button {
 
 /* quote */
 
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+
+}
+
 .quote-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    flex-shrink: 1;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
 }
 
 /* action */
