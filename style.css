@@ -47,10 +47,10 @@ a {
     color: #E5E7EB;
 }
 
-.logo-text {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 800;
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
 }
 
 button {
@@ -72,11 +72,12 @@ button {
     margin: 80px 0 80px 0;
 }
 
-.image {
+.hero-image {
     border: solid black;
-    height: 300px;
+    height: auto;
     width: 600px;
     margin-left: 50px;
+    object-fit: cover;
 }
 
 .description {
@@ -101,11 +102,11 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .info-item {
-    max-width: 150px;
+    width: 200px;
 }
 
 .text {
@@ -114,9 +115,10 @@ button {
 
 .info-img {
     border: solid #3882F6;
-    min-height: 150px;
-    min-width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 /* quote */
@@ -177,6 +179,11 @@ button {
     border: solid 2px #F9FAF8;
 }
 
+.action-button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
 
 
 /* footer */
@@ -184,6 +191,9 @@ button {
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
 }
 
 
